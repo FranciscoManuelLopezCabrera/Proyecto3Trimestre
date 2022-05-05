@@ -1,0 +1,85 @@
+
+
+
+.cachimba{
+	text-align: center;
+}
+.tamaño{
+	width: 20%;
+	}
+
+	#nav {
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 38%;
+	} 
+
+	#nav ul li{
+		background-color: black;
+		text-decoration: none;
+		list-style-type: none;
+		display: inline-block;
+		padding: 20px 20px;
+	}
+	#nav ul li a{
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	#nav ul li a:hover{
+		color: red;
+		transition: .3s;
+	}
+	.cuerpo{
+		display: flex;
+	}
+	.lateralI{
+		text-align: center;
+		float: left;
+		width: 20%;
+		background-color: yellow;
+	
+	}
+	.centro{
+		text-align: center;
+		font-size:25px ;
+		color:red ;
+		background-color: yellow;
+		width: 60%;
+		margin: 0px 10px 0px 10px;
+	}
+	.lateralD{
+		text-align: center;
+		float: left;
+		width: 20%;
+		background-color: yellow;
+	}
+	footer{
+		background-color: black;
+	}
+	.pie{
+		text-align: center;
+		margin: 10px 5px 0px 10px;
+		height: 150px;
+
+	}
+	.pequeño{
+		width: 	400px;
+		height: 150px;
+	}
+	.redes{
+		text-align: center;
+	}
+	
+	.redes a{
+		text-decoration: none;
+		width: 55px;
+		height: 55px;
+		color:red;
+		background-color:black;
+		line-height: 50px;
+
+
+	}
