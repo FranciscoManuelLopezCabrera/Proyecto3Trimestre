@@ -3,7 +3,11 @@
 body {
     height: 100%;
     font-family: "Helvetica Neue",Helvetica,Arial;
-    background-color: #ab4493;
+    background-color: #808080;
+}
+
+h1{
+    text-align: center;
 }
 
 .contact_form {
@@ -13,7 +17,7 @@ body {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #fbfbfb;
+    background-color: #5f0000;
     padding-left: 30px;
 }
 

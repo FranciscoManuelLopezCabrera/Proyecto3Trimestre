@@ -7,7 +7,7 @@
     
     <!--Importar CSS-->
     <link href="./css/contactanos.css" rel="stylesheet" />
-    
+    <link rel="icon" href="./IMG/Logo.png">
     <!--Fuentes-->
 
 </head>
@@ -27,8 +27,8 @@
             <div class="contact_form">
 
                 <div class="formulario">
-                    <h1>Formulario de contacto</h1>
-                    <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                    <h1>Contactanos</h1>
+                    <h3>Escríbenos y en breve nos pondremos en contacto con usted</h3>
 
                     <form action="submeter-formulario.php" method="post">
 
@@ -39,6 +39,14 @@
                             </label>
                             <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
                                 placeholder="Escribe tu nombre">
+                        </p>
+
+                        <p>
+                            <label for="apellido" class="colocar_apellido">Apellido
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
+                                placeholder="Escribe tu apellido">
                         </p>
 
                         <p>
@@ -54,13 +62,6 @@
                             </label>
                             <input type="tel" name="introducir_telefono" id="telefono"
                                 placeholder="Escribe tu teléfono">
-                        </p>
-
-                        <p>
-                            <label for="website" class="colocar_website">Sitio web
-                            </label>
-                            <input type="url" name="introducir_website" id="website"
-                                placeholder="Escribe la URL de tu web">
                         </p>
 
                         <p>
@@ -84,7 +85,7 @@
                         </button>
 
                         <p class="aviso">
-                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                            <span class="obligatorio"> * </span>Los campos son obligatorios.
                         </p>
 
                     </form>
