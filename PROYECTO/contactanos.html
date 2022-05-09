@@ -4,9 +4,10 @@
 <head>
     <title>Formulario</title>
     <meta charset="utf-8">
-    
+
     <!--Importar CSS-->
     <link href="./css/contactanos.css" rel="stylesheet" />
+    <link href="./css/navegador.css" rel="stylesheet" />
     <link rel="icon" href="./IMG/Logo.png">
     <!--Fuentes-->
 
@@ -19,7 +20,30 @@
     <main>
 
         <!--menu-->
-
+        <nav id='menu'>
+            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+            <ul>
+                <li><a href=#>Inicio</a></li>
+                <li><a class='dropdown-arrow' href=#>Productos</a>
+                    <ul class='sub-menus'>
+                        <li><a href=#>Cachimbas</a></li>
+                        <li><a href=#>Boquillas</a></li>
+                        <li><a href=#>Tabaco</a></li>
+                        <li><a href=#>Accesorios</a></li>
+                    </ul>
+                </li>
+                
+                <li><a class='dropdown-arrow' href=#>Lo q sea</a>
+                    <ul class='sub-menus'>
+                        <li><a href=#>menu subnormal 1</a></li>
+                        <li><a href=#>menu subnormal 2</a></li>
+                        <li><a href=#>menu subnormal 3</a></li>
+                    </ul>
+                </li>
+                <li><a href=#>Contactanos</a></li>
+                <li><a href=#>Sobre nosotros</a></li>
+            </ul>
+        </nav>
 
         <!--formulario-->
 
