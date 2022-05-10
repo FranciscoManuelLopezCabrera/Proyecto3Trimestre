@@ -2,12 +2,8 @@
 
 body {
     height: 100%;
-    font-family: "Helvetica Neue",Helvetica,Arial;
-    background-color: #808080;
-}
-
-h1{
-    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    background-color: #000000;
 }
 
 .contact_form {
@@ -17,7 +13,7 @@ h1{
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #5f0000;
+    background-color: gray;
     padding-left: 30px;
 }
 
@@ -28,7 +24,7 @@ input {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: #ab4493;
+    border-color: #000000;
     margin-top: 10px;
     padding-left: 10px;
     margin-bottom: 20px;
@@ -70,33 +66,39 @@ button {
 
 button p {
     color: #fff;
+    font-size: 14px;
 }
 
 span {
-    color: #ab4493;
+    color: #ff0000;
 }
 
 .aviso {
-    font-size: 13px;
+    font-size: 14px;
     color: #0e0e0e;
 }
 
-h1 {
-    font-size: 39px;
-    text-align: letf;
+.formulario h1 {
+    font-size: 56px;
+    text-align: center;
     padding-bottom: 20px;
-    color: #ab4493;
+    color: #aa0909;
+    font-family: 'New Rocker';
+    text-align: center;
+
 }
 
-h3 {
+.formulario h3 {
     font-size: 16px;
     padding-bottom: 30px;
     color: #0e0e0e;
+    margin-left: 15%;
 }
 
-p {
-    font-size: 14px;
+.formulario p {
+    font-size: 18px;
     color: #0e0e0e;
+    font-family: 'New Rocker';
 }
 
 ::-webkit-input-placeholder {
@@ -109,10 +111,10 @@ p {
 
 .formulario input:focus {
     outline: 0;
-    border: 1px solid #97d848;
+    border: 1px solid #ff0000;
 }
 
 .formulario textarea:focus {
     outline: 0;
-    border: 1px solid #97d848;
+    border: 1px solid #ff0000;
 }

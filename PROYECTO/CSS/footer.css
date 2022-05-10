@@ -1,1 +1,31 @@
 /*FOOTER*/
+
+footer {
+    margin-left: 30%;
+    width: 50%;
+    text-align: center;
+}
+
+.contactanos {
+    float: left;
+    margin-right: 5%;
+    border: 1px solid red;
+}
+
+.quienessomos {
+    float: left;
+    margin-right: 5%;
+}
+
+.comunidad {
+    float: left;
+}
+
+footer li a {
+    color: white;
+}
+
+footer li h3 {
+    color: white;
+    margin-right: 6%;
+}
