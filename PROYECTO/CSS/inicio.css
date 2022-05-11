@@ -1,39 +1,65 @@
 
-
-
-.cachimba{
-	text-align: center;
-}
-.tamaño{
-	width: 20%;
+	*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	}
+	.cachimba{
+		width: 250px;
+	}
+	.tamaño{
+	width: 100%;
+	}
+	a,li{
+		font-family: 'New Rocker', cursive;
+		color: white;
 	}
 
-	#nav {
-	
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-left: 38%;
-	} 
-
-	#nav ul li{
+	header{
+		display: flex;
 		background-color: black;
-		text-decoration: none;
-		list-style-type: none;
-		display: inline-block;
+		align-items: center;
+		justify-content: space-between;
 		padding: 20px 20px;
 	}
-	#nav ul li a{
-		color: white;
-		text-decoration: none;
-		font-weight: bold;
+
+	.nav-menu{
+		align-items: center;
 	}
-	#nav ul li a:hover{
+	.nav-menu ul{
+		display: flex;
+		align-items: center;
+
+	}
+
+	.nav-menu li{
+		margin-right: 70px;
+
+	}
+	.nav-menu a:hover{
 		color: red;
-		transition: .3s;
 	}
+	.nav-menu li:last-child{
+		background-color: red;
+		border: 2px solid red;
+		padding: .25rem .75rem;
+		border-radius: .2rem;
+
+	}
+
+	.nav-menu li:last-child:hover{
+		background: transparent;
+		border: 2px solid red;
+	}
+	.botones{
+		color: red;
+		
+	}
+
 	.cuerpo{
 		display: flex;
+		width: 100%;
 	}
 	.lateralI{
 		text-align: center;
@@ -43,6 +69,7 @@
 	
 	}
 	.centro{
+		font-family: 'New Rocker', cursive;
 		text-align: center;
 		font-size:25px ;
 		color:red ;
@@ -58,6 +85,9 @@
 	}
 	footer{
 		background-color: black;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
 	}
 	.pie{
 		text-align: center;
@@ -66,8 +96,8 @@
 
 	}
 	.pequeño{
-		width: 	400px;
-		height: 150px;
+		width: 30%;
+
 	}
 	.redes{
 		text-align: center;
