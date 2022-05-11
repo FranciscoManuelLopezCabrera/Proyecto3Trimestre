@@ -1,7 +1,6 @@
 /*CONTACTANOS*/
 
 body {
-    height: 100%;
     font-family: "Helvetica Neue", Helvetica, Arial;
     background-color: #000000;
 }
@@ -50,13 +49,13 @@ label {
 }
 
 button {
-    height: 45px;
+    height: 60pxx;
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: #333331;
+    background-color: #1a1a19;
     border-color: #ffffff;
     border-style: solid;
     border-radius: 10px;
@@ -64,9 +63,10 @@ button {
     cursor: pointer;
 }
 
-button p {
-    color: #fff;
+#enviar p {
+    color: #ffffff;
     font-size: 14px;
+    font-weight: bold;
 }
 
 span {
@@ -82,8 +82,8 @@ span {
     font-size: 56px;
     text-align: center;
     padding-bottom: 20px;
-    color: #aa0909;
-    font-family: 'New Rocker';
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 
 }
@@ -117,4 +117,13 @@ span {
 .formulario textarea:focus {
     outline: 0;
     border: 1px solid #ff0000;
+}
+
+h3 .logoform{
+    text-align: center;
+    margin-right: 20%;
+}
+
+h1{
+    margin-right: 5%;
 }

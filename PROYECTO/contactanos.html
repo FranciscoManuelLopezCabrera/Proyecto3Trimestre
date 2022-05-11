@@ -24,30 +24,6 @@
     <main>
 
         <!--menu-->
-        <nav id='menu'>
-            <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-            <ul>
-                <li><a href=#>Inicio</a></li>
-                <li><a class='dropdown-arrow' href=#>Productos</a>
-                    <ul class='sub-menus'>
-                        <li><a href=#>Cachimbas</a></li>
-                        <li><a href=#>Boquillas</a></li>
-                        <li><a href=#>Tabaco</a></li>
-                        <li><a href=#>Accesorios</a></li>
-                    </ul>
-                </li>
-
-                <li><a class='dropdown-arrow' href=#>Lo q sea</a>
-                    <ul class='sub-menus'>
-                        <li><a href=#>menu subnormal 1</a></li>
-                        <li><a href=#>menu subnormal 2</a></li>
-                        <li><a href=#>menu subnormal 3</a></li>
-                    </ul>
-                </li>
-                <li><a href=#>Contactanos</a></li>
-                <li><a href=#>Sobre nosotros</a></li>
-            </ul>
-        </nav>
 
         <!--formulario-->
 
@@ -56,7 +32,7 @@
 
                 <div class="formulario">
                     <h1>Contactanos</h1>
-                    <h3><img src="./IMG/PAMACHIMBAS_RECORTAO.png" width="500"></h3>
+                    <h3 class="logoform"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300"></h3>
 
                     <form action="submeter-formulario.php" method="post">
 
@@ -126,71 +102,39 @@
 
 <!--Pie-->
 <footer>
-
-    <div class="divfooter">
-
-        <div class="contactanos">
-            <ul>
-                <li>
-                    <h3>Contactanos</h3>
-                </li>
-
-                <li>
-                    <a href="tel:+34123456789">123 45 67 89</a>
-                </li>
-                <li>
-                    <a href="#">Centro de soporte</a>
-                </li>
-
-                <li>
-                    <a href="#">Devoluciones y Garantias</a>
-                </li>
-            </ul>
+    <div class="footer-container">
+        <div class="footer-content-container">
+            <h3 class="website-logo"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300px"></h3>
+            <span class="footer-info">955 420 696</span>
+            <span class="footer-info">pamachimbas@adaits.es</span>
+        </div>
+        <div class="footer-menus">
+            <div class="footer-content-container">
+                <span class="menu-title">menu</span>
+                <a href="" class="menu-item-footer">Inicio</a>
+                <a href="" class="menu-item-footer">Productos</a>
+                <a href="" class="menu-item-footer">XIXITAS</a>
+            </div>
+            <div class="footer-content-container">
+                <span class="menu-title">legal</span>
+                <a href="" class="menu-item-footer">Política de privacidad</a>
+                <a href="" class="menu-item-footer">Cookies</a>
+                <a href="" class="menu-item-footer">Aviso legal</a>
+            </div>
         </div>
 
-        <div class="quienessomos">
-            <ul>
-                <li>
-                    <h3>Quienes somos</h3>
-                </li>
-                <li>
-                    <a href="#">Preguntas frecuentes</a>
-                </li>
-
-                <li>
-                    <a href="#">Aviso legal</a>
-                </li>
-
-                <li>
-                    <a href="#">Privacidad</a>
-                </li>
-            </ul>
+        <div class="footer-content-container">
+            <span class="menu-title">¡SIGUENOS!</span>
+            <div class="social-container">
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+                <a href="" class="social-link"></a>
+            </div>
         </div>
-
-        <div class="comunidad">
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.facebook.com">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://www.twitter.com">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a>
-                </li>
-            </ul>
-        </div>
-
     </div>
-
+    <div class="copyright-container">
+        <span class="copyright">Copyright 2021, itskrey.com. All rights reserved.</span>
+    </div>
 </footer>
 
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
