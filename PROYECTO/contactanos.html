@@ -6,6 +6,7 @@
     <meta charset="utf-8">
 
     <!--Importar CSS-->
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
@@ -13,94 +14,109 @@
     <link href="./css/navegador.css" rel="stylesheet" />
     <link href="./css/footer.css" rel="stylesheet" />
     <link rel="icon" href="./IMG/Logo.png">
-    <!--Fuentes-->
+    <script src="https://kit.fontawesome.com/e410beb526.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
 
 </head>
 
+<!--menu-->
+
 <body>
-    <!--Encabezado-->
+    <header>
+        <div class="cachimba">
+            <img src="IMG/PAMACHIMBAS.png" class="tamaño">
+        </div>
 
-    <!--Cuerpo-->
-    <main>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="regiones.html">Cachimbas</a></li>
+                <li><a href="tipos.html">Cazoletas</a></li>
+                <li><a href="tipos.html">Accesorios</a></li>
+                <li><a href="juegos.html">Contactanos</a></li>
+            </ul>
+        </nav>
+        <div class="botones">
+            <i class="fa-solid fa-user"></i>&nbsp;&nbsp;
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+    <!--formulario-->
 
-        <!--menu-->
+    <body>
+        <div class="contact_form">
 
-        <!--formulario-->
+            <div class="formulario">
+                <h1>Contactanos</h1>
+                <h3 class="logoform"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300"></h3>
 
-        <body>
-            <div class="contact_form">
-
-                <div class="formulario">
-                    <h1>Contactanos</h1>
-                    <h3 class="logoform"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300"></h3>
-
-                    <form action="submeter-formulario.php" method="post">
+                <form action="submeter-formulario.php" method="post">
 
 
-                        <p>
-                            <label for="nombre" class="colocar_nombre">Nombre
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
-                                placeholder="Escribe tu nombre">
-                        </p>
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
 
-                        <p>
-                            <label for="apellido" class="colocar_apellido">Apellido
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
-                                placeholder="Escribe tu apellido">
-                        </p>
+                    <p>
+                        <label for="apellido" class="colocar_apellido">Apellido
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
+                            placeholder="Escribe tu apellido">
+                    </p>
 
-                        <p>
-                            <label for="email" class="colocar_email">Email
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio"
-                                placeholder="Escribe tu Email">
-                        </p>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
 
-                        <p>
-                            <label for="telefone" class="colocar_telefono">Teléfono
-                            </label>
-                            <input type="tel" name="introducir_telefono" id="telefono"
-                                placeholder="Escribe tu teléfono">
-                        </p>
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
 
-                        <p>
-                            <label for="asunto" class="colocar_asunto">Asunto
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <input type="text" name="introducir_asunto" id="asunto" required="obligatorio"
-                                placeholder="Escribe un asunto">
-                        </p>
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="asunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
 
-                        <p>
-                            <label for="mensaje" class="colocar_mensaje">Mensaje
-                                <span class="obligatorio">*</span>
-                            </label>
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
-                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
-                        </p>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
 
-                        <button type="submit" name="enviar_formulario" id="enviar">
-                            <p>Enviar</p>
-                        </button>
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
 
-                        <p class="aviso">
-                            <span class="obligatorio"> * </span>Los campos son obligatorios.
-                        </p>
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>Los campos son obligatorios.
+                    </p>
 
-                    </form>
-                </div>
+                </form>
             </div>
+        </div>
 
-        </body>
-
-</html>
+    </body>
 
 <!--Pie-->
+
 <footer>
     <div class="footer-container">
         <div class="footer-content-container">
