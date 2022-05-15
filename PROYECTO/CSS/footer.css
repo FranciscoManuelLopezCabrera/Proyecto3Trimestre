@@ -80,9 +80,9 @@ footer .website-logo {
 }
 
 .social-container {
-	display: flex;
-	color:red;
-	background-color:black;
+    display: flex;
+    color: red;
+    background-color: black;
 }
 
 .social-link {
@@ -107,7 +107,6 @@ footer .social-link:nth-of-type(3) {
     /*Nth of type inside that container*/
     background-image: url(LinkedinBlanco.png);
 }
-
 
 /*MEDIA QUERY*/
 @media (max-width: 768px) {
