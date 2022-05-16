@@ -3,7 +3,13 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial;
     background-color: #000000;
+    background-image:url("../IMG/humo.gif") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 .contact_form {
     width: 460px;

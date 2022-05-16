@@ -194,12 +194,11 @@ input::placeholder{
     left: 450px;
 }
 
-}
 .ok:hover{
   transition: 0.5s;
 }
 input{
-  color:yellow:
+  color:yellow;
 }
 
 footer {
