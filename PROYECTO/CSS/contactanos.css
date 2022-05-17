@@ -3,7 +3,7 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial;
     background-color: #000000;
-    background-image:url("../IMG/humo.gif") ;
+    background-image: url("../IMG/humo.gif");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -18,7 +18,9 @@ body {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: gray;
+    background-color: none;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     padding-left: 30px;
 }
 
@@ -125,11 +127,11 @@ span {
     border: 1px solid #ff0000;
 }
 
-h3 .logoform{
+h3 .logoform {
     text-align: center;
     margin-right: 20%;
 }
 
-h1{
+h1 {
     margin-right: 5%;
 }

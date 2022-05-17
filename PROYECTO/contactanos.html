@@ -49,120 +49,119 @@
         </div>
     </header>
     <!--formulario-->
+ 
+    <div class="contact_form">
 
-    <body>
-        <div class="contact_form">
+        <div class="formulario">
+            <h1>Contactanos</h1>
+            <h3 class="logoform"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300"></h3>
 
-            <div class="formulario">
-                <h1>Contactanos</h1>
-                <h3 class="logoform"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300"></h3>
-
-                <form action="submeter-formulario.php" method="post">
+            <form action="submeter-formulario.php" method="post">
 
 
-                    <p>
-                        <label for="nombre" class="colocar_nombre">Nombre
-                            <span class="obligatorio">*</span>
-                        </label>
-                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
-                            placeholder="Escribe tu nombre">
-                    </p>
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                        placeholder="Escribe tu nombre">
+                </p>
 
-                    <p>
-                        <label for="apellido" class="colocar_apellido">Apellido
-                            <span class="obligatorio">*</span>
-                        </label>
-                        <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
-                            placeholder="Escribe tu apellido">
-                    </p>
+                <p>
+                    <label for="apellido" class="colocar_apellido">Apellido
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_apellido" id="apellido" required="obligatorio"
+                        placeholder="Escribe tu apellido">
+                </p>
 
-                    <p>
-                        <label for="email" class="colocar_email">Email
-                            <span class="obligatorio">*</span>
-                        </label>
-                        <input type="email" name="introducir_email" id="email" required="obligatorio"
-                            placeholder="Escribe tu Email">
-                    </p>
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio"
+                        placeholder="Escribe tu Email">
+                </p>
 
-                    <p>
-                        <label for="telefone" class="colocar_telefono">Teléfono
-                        </label>
-                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                    </p>
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
 
-                    <p>
-                        <label for="asunto" class="colocar_asunto">Asunto
-                            <span class="obligatorio">*</span>
-                        </label>
-                        <input type="text" name="introducir_asunto" id="asunto" required="obligatorio"
-                            placeholder="Escribe un asunto">
-                    </p>
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <input type="text" name="introducir_asunto" id="asunto" required="obligatorio"
+                        placeholder="Escribe un asunto">
+                </p>
 
-                    <p>
-                        <label for="mensaje" class="colocar_mensaje">Mensaje
-                            <span class="obligatorio">*</span>
-                        </label>
-                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
-                            placeholder="Deja aquí tu comentario..."></textarea>
-                    </p>
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                        placeholder="Deja aquí tu comentario..."></textarea>
+                </p>
 
-                    <button type="submit" name="enviar_formulario" id="enviar">
-                        <p>Enviar</p>
-                    </button>
+                <button type="submit" name="enviar_formulario" id="enviar">
+                    <p>Enviar</p>
+                </button>
 
-                    <p class="aviso">
-                        <span class="obligatorio"> * </span>Los campos son obligatorios.
-                    </p>
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>Los campos son obligatorios.
+                </p>
 
-                </form>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--Pie-->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300px"></h3>
+                <span class="footer-info">955 420 696</span>
+                <span class="footer-info">pamachimbas@adaits.es</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <a class="menu-title">Sobre nosotros</a>
+                    <a href="" class="menu-item-footer">Nuestras marcas</a>
+                    <a href="" class="menu-item-footer">Productos</a>
+                    <a href="" class="menu-item-footer">Contactanos</a>
+                </div>
+                <div class="footer-content-container">
+                    <a class="menu-title">Legal</a>
+                    <a href="" class="menu-item-footer">Política de privacidad</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Aviso legal</a>
+                </div>
+            </div>
+
+            <div class="footer-content-container">
+                <a class="menu-title">¡SIGUENOS!</a>
+                <div class="social-container">
+                    <a href="" class="fa fa-facebook" style="color: red;"></a>&nbsp;&nbsp;
+                    <a href="" class="fa fa-instagram" style="color: red;"></a>&nbsp;&nbsp;
+                    <a href="" class="fa fa-twitter" style="color: red;"></a>&nbsp;&nbsp;
+                    <a href="" class="fa fa-youtube" style="color: red;"></a>
+                </div>
             </div>
         </div>
+        <div class="copyright-container">
+            <span class="copyright">Copyright 2022, Pamachimbas.com. Todos los derechos reservados.</span>
+        </div>
+    </footer>
 
 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-        <!--Pie-->
-
-        <footer>
-            <div class="footer-container">
-                <div class="footer-content-container">
-                    <h3 class="website-logo"><img src="./IMG/PAMACHIMBAS_MUY_RECORTADO.png" width="300px"></h3>
-                    <span class="footer-info">955 420 696</span>
-                    <span class="footer-info">pamachimbas@adaits.es</span>
-                </div>
-                <div class="footer-menus">
-                    <div class="footer-content-container">
-                        <a class="menu-title">Sobre nosotros</a>
-                        <a href="" class="menu-item-footer">Nuestras marcas</a>
-                        <a href="" class="menu-item-footer">Productos</a>
-                        <a href="" class="menu-item-footer">Contactanos</a>
-                    </div>
-                    <div class="footer-content-container">
-                        <a class="menu-title">Legal</a>
-                        <a href="" class="menu-item-footer">Política de privacidad</a>
-                        <a href="" class="menu-item-footer">Cookies</a>
-                        <a href="" class="menu-item-footer">Aviso legal</a>
-                    </div>
-                </div>
-
-                <div class="footer-content-container">
-                    <a class="menu-title">¡SIGUENOS!</a>
-                    <div class="social-container">
-                        <a href="" class="fa fa-facebook" style="color: red;"></a>&nbsp;&nbsp;
-                        <a href="" class="fa fa-instagram" style="color: red;"></a>&nbsp;&nbsp;
-                        <a href="" class="fa fa-twitter" style="color: red;"></a>&nbsp;&nbsp;
-                        <a href="" class="fa fa-youtube" style="color: red;"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright-container">
-                <span class="copyright">Copyright 2022, Pamachimbas.com. Todos los derechos reservados.</span>
-            </div>
-        </footer>
-
-
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-    </body>
+</body>
 
 </html>
