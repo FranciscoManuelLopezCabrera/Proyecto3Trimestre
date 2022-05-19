@@ -89,7 +89,9 @@ body{
     border-radius: 10px;
     position: relative;
     margin: 6% auto;
-    background: transparent;    
+    background: transparent;
+    -webkit-backdrop-filter: blur(25px);
+    backdrop-filter: blur(25px);
     box-shadow: 0 0 10px 0.5px yellow;
 }
 
