@@ -1,8 +1,18 @@
 /*CAZOLETAS*/
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+}
+
+.ofertas{
+	width: 100%;
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom: 10px;
+	justify-content: center;
 }
 
 .cuerpo{
@@ -62,3 +72,5 @@
 	color: red;
 
 }
+
+
