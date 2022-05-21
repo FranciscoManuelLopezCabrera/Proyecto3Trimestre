@@ -93,3 +93,14 @@
 	color: red;
 
 }
+
+.videoTutorial{
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+	display: block;
+}
+
+.videoTutorial:hover{
+	
+}
