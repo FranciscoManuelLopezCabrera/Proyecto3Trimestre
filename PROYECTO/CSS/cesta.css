@@ -1,7 +1,7 @@
 .CuerpoCesta{
 	margin: 0;
 	padding: 0;
-	background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+	background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF); /*Cuerpo que engloba a toda la pagina de la cesta*/
 	height: 100vh;
 	display: flex;
 	justify-content: center;
@@ -11,7 +11,7 @@
 .CartContainer {
     width: 70%;
     height: 100%;
-    background-color: #ffffff;
+    background-color: #ffffff;                          /*DIV que engloba a el carrito*/
     border-radius: 20px;
     box-shadow: 0px 10px 20px #1687d933;
 }
