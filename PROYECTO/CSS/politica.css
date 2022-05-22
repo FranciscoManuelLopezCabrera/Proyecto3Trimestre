@@ -1,0 +1,41 @@
+/*POLITICAS*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	font-family: New Rocker;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em red;
+}
+.cuerpo {
+	width: 100%;
+	display: flex;
+	max-width: 1200px;
+	margin: auto;
+    padding: 10px;
+}
+
+.titulo {
+	margin: auto;
+    margin-right: 25px;
+	text-align: center;
+	font-family: New Rocker;
+	font-size: 30px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.textoCuerpo{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textoCuerpo h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
